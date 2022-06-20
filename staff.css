@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(staff-head.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+nav a {
+    float: left;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+nav a:hover {
+    background-image: linear-gradient(to right, blue, green);
+}
+.active {
+    background-color: #111;
+}
+
+.departments {
+    background-color: rgba(199, 187, 187, 0.541);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 8px;
+    overflow-x: auto;
+}
+
+.departments fieldset {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.department-holder fieldset {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.department-holder legend {
+    background-color: rgba(243, 235, 235, 0.466);
+    padding: 2px 6px;
+    border-radius: 6px;
+}
+
+fieldset {
+    margin: 5px;
+}
+
+.department-holder img {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    text-align: center;
+}
+
+mark {
+    border-radius: 4px;
+    padding: 2px;
+}
+
+
+table {
+    width: 100%;
+}
+
+
+
+
+
+
+.subjects {
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+.subjects-array tr {
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.subjects-array th {
+    background-color: rgba(255, 255, 255, 0.499);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+}
+
+.subjects-array th img{
+    width: 100px;
+    height: 100px;
+}
+
+.subjects-heading {
+    
+    background-color: rgba(255, 255, 255, 0.499);
+    padding: 8px;
+    border-radius: 15px;
+    margin: 8px;
+    background-image: linear-gradient(to right, rgb(73, 182, 73), rgb(65, 65, 206));
+}
+
+.subjects-heading p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: -2px;
+}
+
+.subjects-heading1 {
+    background-color: rgba(255, 255, 255, 0.499);
+    padding: 8px;
+    border-radius: 15px;
+    margin: 8px;
+    background-image: linear-gradient(to right, rgb(73, 182, 73), rgb(65, 65, 206));
+}
+
+.subjects-heading1 p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: -2px;
+}
+
+
+
+footer {
+    background-color: #0d1134;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.socialapps {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social-platforms fieldset {
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.footer-content {
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.social-platforms {
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.inquiries {
+    background-color: rgba(255, 255, 255, 0.075);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.copyright {
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.inquiries img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+

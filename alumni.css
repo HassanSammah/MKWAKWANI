@@ -1,0 +1,152 @@
+body {
+    background-image: url(alumni-1.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+nav a {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+nav a:hover {
+    background-image: linear-gradient(to right, blue, green);
+}
+.active {
+    background-color: #111;
+}
+
+.Table-1 table{
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+.Table table {
+    overflow-x: auto;
+    padding: 10px;
+    margin: auto;
+    border-radius: 10px;
+}
+
+h3 {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+.Table-1 td {
+    float: left;
+    padding: 8px;
+    margin: 5px;
+    
+}
+
+th {
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+   
+}
+
+.btn-1 {
+    text-align: center;
+    font-size: large;
+    border-radius: 10px;
+    padding: 4px;
+}
+
+
+input {
+    padding: 4px;
+    border-radius: 10px;
+    
+}
+
+
+footer {
+    background-color: #0d1134;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.socialapps {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social-platforms fieldset {
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.footer-content {
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.social-platforms {
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.inquiries {
+    background-color: rgba(255, 255, 255, 0.075);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.copyright {
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.inquiries img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

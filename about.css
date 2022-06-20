@@ -1,0 +1,307 @@
+* {
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-image: url(new-aerial-1.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+nav a {
+    float: left;
+}
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+nav a:hover {
+    background-image: linear-gradient(to right, blue, green);
+}
+.active {
+    background-color: #111;
+}
+
+.Old-Picture img{
+    padding: 5px;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+        
+}
+
+.history {
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.map-pic img{
+    padding: 5px;
+    border-radius: 15px;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.location {
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.maps-logo {
+    width: 40px;
+    height: 45px;
+    cursor: pointer;
+}
+
+.maps-logo1 {
+    width: 70px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.level-education legend {
+    text-align: center;
+}
+
+.level-education {
+    background-color: rgba(255, 255, 255, 0.650);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.level-education fieldset {
+    border-radius: 10px;
+    text-align: center;
+}
+
+.education tr {
+    background-color: rgba(255, 255, 255, 0.540);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.level-education img {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+
+.levels-pics {
+    border-radius: 40px;
+}
+
+.staff-distro {
+    background-color: rgba(255, 255, 255, 0.500);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.staff-table {
+    background-color: rgba(255, 255, 255, 0.450);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.staff-table tr{
+    background-color: rgba(255, 255, 255, 0.450);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.staff-table th {
+    background-color: rgba(255, 255, 255, 0.650);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+}
+
+.staff-logo {
+    width: 100%;
+    height: 300px;
+}
+
+.staff-pics {
+    width: 40px;
+    height: 40px;
+}
+
+.staff-table th {
+    color: black;
+    background-image: linear-gradient(to right, lightgreen, rgb(243, 243, 41));
+}
+
+.subjects {
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 8px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+}
+
+table td {
+    width: 100%;
+    word-wrap: break-word;
+}
+
+.subjects-array tr {
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+
+.subjects-array th {
+    background-color: rgba(255, 255, 255, 0.499);
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+.subjects-array th img{
+    width: 100px;
+    height: 100px; 
+}
+
+
+
+.subjects-heading {
+    background-color: rgba(255, 255, 255, 0.499);
+    padding: 8px;
+    border-radius: 15px;
+    margin: 2px;
+    background-image: linear-gradient(to right, rgb(73, 182, 73), rgb(65, 65, 206));
+}
+
+.subjects-heading p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: -2px;
+}
+
+.subjects-heading1 {
+    background-color: rgba(255, 255, 255, 0.499);
+    padding: 8px;
+    border-radius: 15px;
+    margin: 2px;
+    background-image: linear-gradient(to right, rgb(73, 182, 73), rgb(65, 65, 206));
+}
+
+.subjects-heading1 p {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    margin: -2px;
+}
+
+.mission-vision {
+    background-color: rgba(255, 255, 255, 0.699);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    text-align: center;
+}
+
+.mission-vision img {
+    padding: 5px;
+    width: 100%;
+    height: auto;
+    max-width: 600px;
+}
+
+.mission-vision mark {
+    border-radius: 8px;
+    background-color: rgb(240, 240, 97);
+}
+
+footer {
+    background-color: #0d1134;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.socialapps {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social-platforms fieldset {
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.footer-content {
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.social-platforms {
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.inquiries {
+    background-color: rgba(255, 255, 255, 0.075);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.copyright {
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.inquiries img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}

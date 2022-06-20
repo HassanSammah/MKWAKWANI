@@ -1,0 +1,347 @@
+* {
+    box-sizing: border-box;   
+}
+.mySlides {display: none;}
+
+* {box-sizing: border-box;}
+.mySlidess {display: none;}
+
+h1 {
+    background-image: linear-gradient(to right, rgb(245, 245, 117), rgb(235, 235, 88), yellow);
+    border-radius: 10px;
+    font-family: Times New Roman;
+    color: blue;
+    text-align: center;
+}
+
+.heading {
+    height: 15%;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.heading fieldset {
+    border-radius: 10px;
+    text-align: center;
+}
+
+/*.navigation {
+    text-align: center;
+    flex: 1;
+}*/
+
+/*.navigation {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+    border-radius: 5px;
+    border: grey;
+    border-style: solid;
+    background-image: linear-gradient(to right, lightblue, violet);
+}*/
+
+marquee {
+    background-color: rgba(255, 255, 255, 0.623);
+    border-radius: 10px;
+    font-size: 12px;
+}
+
+
+.events {
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.h4ntext {
+    text-align: center;
+}
+
+.general-info {
+    background-color: rgba(255, 255, 255, 0.74);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h4 {
+    background-color: rgba(255, 255, 255, 0.664);
+    border-radius: 10px;
+    padding: 15px;
+    text-align: center;    
+}
+
+nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    border-radius: 10px;
+}
+
+nav a {
+    float: left;
+}
+
+nav a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+nav a:hover {
+    background-image: linear-gradient(to right, blue, green);
+}
+.active-Home {
+    background-color: #111;
+}
+
+body {
+   background-image: url('front-new.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+
+img {
+    vertical-align: middle;
+    border-radius: 10px;
+}
+
+/* Slideshow container */
+.slideshow-containerr {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Caption text */
+  .events .text {
+    color: white;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .events .numbertext {
+    color: white;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+
+  
+  /* The dots/bullets/indicators */
+  .dott {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .activee {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fadee {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .textt {font-size: 11px}
+  }
+
+
+.slideshow-container img {
+    border-radius: 10px;
+}
+
+.importance-heading img {
+    border-radius: 0px;
+}
+
+.importance {
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.potentials {
+    background-color: rgba(255, 255, 255, 0.74);
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+
+}
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.6s ease;
+    border-radius: 0 5px 5px 0;
+}
+
+.next {
+    right: 0;
+    border-radius: 5px 0 0 5px;
+}
+
+.prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+}
+
+.text {
+    color: black;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext {
+    color: black;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    font-weight: bold;
+    top: 0;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: 0.4;}
+    to {opacity: 1;}
+}
+
+@media only screen and (max-width: 300px) {
+    .prev, .next, .text {font-size: 11px}
+}
+.result {
+    background-color: rgba(255, 255, 255, 0.459);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #0d1134;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+
+}
+
+.socialapps {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.social-platforms fieldset {
+    text-align: center;
+    border-radius: 10px;
+    
+}
+
+.footer-content {
+    background-color: rgba(255, 255, 255, 0.103);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.social-platforms {
+    background-color: rgba(255, 255, 255, 0.048);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.inquiries {
+    background-color: rgba(255, 255, 255, 0.075);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.copyright {
+    padding: 5px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.inquiries img {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.logo1 {
+    border-radius: 0px;
+}
