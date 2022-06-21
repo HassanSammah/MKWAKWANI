@@ -37,6 +37,25 @@ nav a:hover {
     background-color: #111;
 }
 
+.headingy fieldset {
+    padding: 5px;
+    margin: 8px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.headingy legend {
+    background-color: rgba(243, 235, 235, 0.466);
+    padding: 2px 6px;
+    border-radius: 6px;
+    text-align: left;
+}
+
+.Contact-logo {
+    width: 300px;
+    height: 150px;
+}
+
 .technologies legend {
     background-color: rgba(243, 235, 235, 0.466);
     padding: 2px 6px;

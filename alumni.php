@@ -40,7 +40,18 @@
     <link rel="stylesheet" href="alumni.css">
 </head>
 <body>
-<div class="navigation">
+
+    <div class="heading">
+    <header>
+        <fieldset>
+        <legend>Are you an alumni Member?</legend>
+        <img src="Alumni-Logo.png" alt="Alumni Logo" class="alumni-logo">
+        <img src="grad-capp.png" alt="Alumni Logo" class="alumni-logo">
+        </fieldset>
+    </header>
+    </div>
+
+    <div class="navigation">
         <nav>
             <a href="Home.html">Home</a>
             <a href="About.html">About</a>
@@ -50,8 +61,24 @@
         </nav>
     </div>
     <center>
-    <h3>Registered Alumni</h3>
+    <h3 class="Heading-alumni">REGISTER TO ALUMNI</h3>
     </center>
+    <center>
+    <hr>
+    <?php
+      if(isset($error)) {
+        foreach($error as $error){
+            echo '<h3 class="error-msg" style="color:crimson;text-align:center;">'.$error.'</h3>';
+            };
+        }else
+        {
+        foreach($success as $success){
+            echo '<h3 class="success-msg" style="color:green;text-align:center;">'.$success.'</h3>';
+            };
+        };
+    ?>
+    </center>
+
     <div class="container">
         <div class="table-form">
             <table class="Table-1" align="center">
@@ -138,7 +165,9 @@
         </div>
     </div>
     <br>
-        <h3 style="text-align:center;">LIST OF ALL REGISTERED ALUMNI OF THE SCHOOL</h3>
+    <div class="for-overflow">
+        
+        <h3 class="over-head"><marquee behavior="alternate" scrollamount="12"><i>---scroll right to view---</i> LIST OF ALL REGISTERED ALUMNI OF THE SCHOOL <i>---scroll left to view---</i></marquee></h3>
             <table class="Table">
                 <tr>
                     <th>S/N</th>
@@ -172,6 +201,9 @@
                 $conn->close();
                 ?>
             </table>
+        </div>
+
+            <br><br><br>
             <footer>
         <div class="footer-content">
             <div class="social-platforms">
