@@ -38,10 +38,13 @@ nav a:hover {
 }
 
 .headingy fieldset {
-    padding: 5px;
-    margin: 8px;
     border-radius: 10px;
     text-align: center;
+}
+
+header {
+    overflow-x: auto;
+    overflow-y: auto;
 }
 
 .headingy legend {
@@ -52,8 +55,9 @@ nav a:hover {
 }
 
 .Contact-logo {
-    width: 300px;
-    height: 150px;
+    width: 240px;
+    height: 110px;
+    margin: -20px;
 }
 
 .technologies legend {
