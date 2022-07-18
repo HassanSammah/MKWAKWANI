@@ -107,16 +107,18 @@ if(isset($_POST['submit'])){
 </head>
 <body>
     <div class="header">
-        <h3>MKWAKWANI SECONDARY SCHOOL</h3><br>
-        <p><i>Please Register to access some Pages</i></p>
+    <div class="heading-1">
+        <h1>MKWAKWANI SECONDARY SCHOOL</h1>
+        </div><br>
+        <p><i>Please Register to access some Pages</i><br>NOTE:<br>
+        This Register Page is especially for The Official Students of the Secondary School
+        </p>
 
     </div>
   
   <!-- Use any element to open/show the overlay navigation menu -->
     <div class="my-form">
     <form name="myForm" action="" method="post"  >
-        <h1>Register</h1>
-        <p>Please fill in this form to create an account.</p>
         <hr>
         <?php
       if(isset($error)){
@@ -128,25 +130,40 @@ if(isset($_POST['submit'])){
         <div class="container">
      
             <div class="left">
-               
+                <fieldset>
+                <legend>
                 <label for="fname"><b>First Name </b></label>
+                </legend>
                 <input type="text" placeholder="Enter First Name" name="firstname" >
-                <br>
+                </fieldset>
+                <fieldset>
+                <legend>
                 <label for="mname"><b>Middle Name </b></label>
+                </legend>
                 <input type="text" placeholder="Enter Middle Name" name="middlename" required>
-                <br>
+                </fieldset>
+                <fieldset>
+                <legend>
                 <label for="surname"><b>SurName </b></label>
+                </legend>
                 <input type="text" placeholder="Enter SurName " name="surname" required>
-                <br>
+                </fieldset>
+                <fieldset>
+                <legend>
                 <label for="dob"><b>Date Of Birth </b></label>
+                </legend>
                 <input type="date" placeholder="Enter Date Of Birth " name="dob" required>
-                <br>
+                </fieldset>
+                <fieldset>
                 <div class="input-control">
+                <legend>
                     <label for="password"><b>Password</b></label>
+                </legend>
                     <input type="password" placeholder="Enter Password" name="password" id="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required>
                     <input type="checkbox" onclick="showPass()">
                     <div class="error"></div>
                 </div>
+                </fieldset> 
                 <div id="message">
   <h3>Password must contain the following:</h3>
   <p id="letter" class="invalid">A <b>lowercase</b> letter</p>
@@ -155,37 +172,60 @@ if(isset($_POST['submit'])){
   <p id="length" class="invalid">Minimum <b>8 characters</b></p>
 </div>
 <br>
+               <fieldset>
                 <div class="input-control">
-                    <label for="password2"><b>Repeat Password</b></label>
+                <legend>
+                <label for="password2"><b>Repeat Password</b></label>
+                </legend>
                     <input type="password" placeholder="Repeat Password" id="password2" name="password2" oninput="check(this)" required>
                    <input type="checkbox" onclick="showPass1()">
           
                 </div>
+               </fieldset>
 
-            <br>
             <div class="right">
-  <div class="input-control">
-  <label for="email"><b>Email</b></label>
-                <input type="email" placeholder="Enter Email" name="email" onkeydown="ValidateEmail()" id="email" required>
-                <span id="text"></span>
-               <br>
-  </div>
+            <fieldset>
+            <div class="input-control">
+            <legend>
+            <label for="email"><b>Email</b></label>
+              </legend>
+                  <input type="email" placeholder="Enter Email" name="email" onkeydown="ValidateEmail()" id="email" required>
+                  <br>
+                  <span id="text"></span>
+                  <br>
+            </div>
+            </fieldset>
   <br>
-            
+                <fieldset>
+                <legend>
                 <label for="phone"><b>Phone Number </b></label>
+    </legend>
                 <input type="text" placeholder="Enter Phone Number " name="phone" required>
-                <br>
+                </fieldset>
+                <fieldset>
+                <legend>
                 <label for="facebook"><b>Facebook </b></label>
+                </legend>
                 <input type="text" placeholder="Enter Facebook Account Name" name="facebook">
-                <br>
+                </fieldset>
+                <fieldset>
+                <legend>
                 <label for="twiter"><b>Twitter </b></label>
+                </legend>
                 <input type="text" placeholder="Enter Twitter Account Name " name="twiter" >
-                <br>
+                </fieldset>
+                <fieldset>
+                <legend>
                 <label for="instagram"><b>Instagram </b></label>
+                </legend>
                 <input type="text" placeholder="Enter Instagram Account Name " name="instagram" >
-                <br>
-                <label for="file">Please Attach your CV here</label><br>
+                </fieldset>
+                <fieldset>
+                <legend>
+                <label for="file">Please Attach your CV here</label>
+                </legend><br>
                 <input type="file" name="file" id="file" required>
+                </fieldset>
                 <hr>
             </div>
         
@@ -210,15 +250,23 @@ if(isset($_POST['submit'])){
                 </fieldset>
             </div>
             <div class="inquiries">
-                <p>CONTACT US <img src="contact.png" alt="Contact-logo" >
-                    <br><u>Via Telephone</u>&colon;<br>Deputy Head of School [ +255655422209 ]
-                    <br>Administration Office [ +255716805676 ]
-                </p>
-                
-            </div>
-            <div class="copyright">
-                <p>&copy; Copyright 2022 Mkwakwani School, developed by Hassan A. Samma</p>
-            </div>
+            <p>
+                <address>
+                    Visit us at:<br>
+                    <a href="mailto:hassansammah64@gmail.com" target="_blank"><b>Send An Email</b></a><br>
+                    P.O.BOX 5847<br>
+                    Bombo,Tanga<br>
+                    Tanzania
+                </address>
+                CONTACT US <img src="contact.png" alt="Contact-logo" >
+                <br><u>Via Telephone</u>&colon;<br>Deputy Head of School [ +255655422209 ]
+                <br>Administration Office [ +255716805676 ]
+            </p>
+            
+        </div>
+        <div class="copyright">
+            <p>&copy; Copyright 2022 Mkwakwani School, All Rights Reserved.</p>
+        </div>
         </div>
     </footer>
 
